@@ -18,3 +18,5 @@ spec:
   required:
     matchLabels:
       agones.dev/fleet: supertuxkart
+metadata:
+  name: gsa-supertuxkart

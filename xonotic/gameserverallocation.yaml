@@ -23,3 +23,5 @@ spec:
   required:
     matchLabels:
       agones.dev/fleet: xonotic
+metadata:
+  name: gsa-xonotic
