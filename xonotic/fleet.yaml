@@ -5,5 +5,4 @@ diff:
     kind: Fleet
     name: xonotic
     operations: 
-    - {"op":"remove", "path":"/spec/template/spec/template/spec/containers/0/image"}
-    - {"op":"remove", "path":"/spec/template/spec/template/spec/containers/0/name"}
+    - {"op":"remove", "path":"/spec"}
