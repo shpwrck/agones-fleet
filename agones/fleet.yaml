@@ -1,1 +1,18 @@
 defaultNamespace: default
+diff:
+  comparePatches:
+  - apiVersion: apps/v1 
+    kind: Deployment
+    name: agones-ping 
+    operations: 
+    - {"op":"remove", "path":"/spec"}
+  - apiVersion: apps/v1 
+    kind: Deployment
+    name: agones-controller
+    operations: 
+    - {"op":"remove", "path":"/spec"}
+  - apiVersion: apps/v1 
+    kind: Deployment
+    name: agones-allocator
+    operations: 
+    - {"op":"remove", "path":"/spec"}
