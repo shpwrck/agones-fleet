@@ -1,0 +1,9 @@
+defaultNamespace: default
+diff:
+  comparePatches:
+  - apiVersion: agones.dev/v1 
+    kind: Fleet
+    name: supertuxkart
+    operations: 
+    - {"op":"remove", "path":"/spec/template/spec/template/spec/containers/0/image"}
+    - {"op":"remove", "path":"/spec/template/spec/template/spec/containers/0/name"}
